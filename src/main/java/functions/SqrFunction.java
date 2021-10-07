@@ -1,17 +1,21 @@
 package functions;
 public class SqrFunction implements MathFunction {
-    double n = 4;
-    public double apply () {
-        n = Math.pow(n,2);
-        System.out.println(n);
-        return n;
+    public static double apply(double n) {
+        return Math.pow(n,2);
     }
     public static void main(String[] args) {
+        double n=4;
         SqrFunction J = new SqrFunction();
-        J.apply();
 
+       System.out.println(J.apply(n));
     }
 }
-class ConstantFunction implements MathFunction{
-
+class ConstantFunction implements MathFunction {
+   public class Const {
+    private double Constant;
+    public double getConstant(){
+        return Constant;
+       }
+       public void
+}
 }
