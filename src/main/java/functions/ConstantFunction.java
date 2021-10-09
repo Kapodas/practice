@@ -23,3 +23,4 @@ public class ConstantFunction implements MathFunction {
         System.out.println(PAX.apply(x));
     }
 }
+
