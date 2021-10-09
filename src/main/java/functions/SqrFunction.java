@@ -7,6 +7,6 @@ public class SqrFunction implements MathFunction {
         double n=4;
         SqrFunction J = new SqrFunction();
 
-       System.out.println(J.apply(n));
+        System.out.println(J.apply(n));
     }
 }
