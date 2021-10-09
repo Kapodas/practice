@@ -1,8 +1,10 @@
 package functions;
-import java.lang.Math.*;
-interface MathFunction {
-     static double apply(double x){
-return x;
+import java.awt.*;
+public interface MathFunction{
+      default double apply(double x){
+          return x;
      }
-
+    default CompositeFunction andThen(MathFunction afterFunction) {
+        return new CompositeFunction(this, afterFunction);
+    }
 }

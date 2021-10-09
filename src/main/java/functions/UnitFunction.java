@@ -1,7 +1,7 @@
 package functions;
 
 public class UnitFunction implements MathFunction {
-    public static double apply(double n) {
+    public double apply(double n) {
         return 1;
     }
 

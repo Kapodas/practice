@@ -1,6 +1,6 @@
 package functions;
 class Const {
-    private double Constant;
+    private final double Constant;
 
     public Const(double Constant) {
 
@@ -12,7 +12,7 @@ class Const {
 }
 
 public class ConstantFunction implements MathFunction {
-    public static double apply(double n){
+    public double apply(double n){
         Const jam = new Const(5 );
         double jamConstant = jam.getConstant();
     return jamConstant;

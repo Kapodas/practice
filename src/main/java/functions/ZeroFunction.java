@@ -1,7 +1,7 @@
 package functions;
 
 public class ZeroFunction implements MathFunction {
-    public static double apply(double n) {
+    public double apply(double n) {
         return 0;
     }
 

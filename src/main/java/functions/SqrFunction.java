@@ -1,6 +1,6 @@
 package functions;
 public class SqrFunction implements MathFunction {
-    public static double apply(double n) {
+    public double apply(double n) {
         return Math.pow(n,2);
     }
     public static void main(String[] args) {

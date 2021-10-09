@@ -9,8 +9,9 @@ public class ZeroFunctionTest {
     }
     @Test
     public void TestApply(){
+        ZeroFunction zero=new ZeroFunction();
         double res=0;
-        Assert.assertEquals("Zero== ",res, ZeroFunction.apply(x), 0);
+        Assert.assertEquals(zero.apply(res), 0.0, 0.001);
     }
 
 

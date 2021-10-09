@@ -9,8 +9,9 @@ public class UnitFunctionTest {
     }
     @Test
     public void TestApply(){
+        UnitFunction unit=new UnitFunction();
         double res=1;
-        Assert.assertEquals("Unit== ",res, UnitFunction.apply(x), 0);
+        Assert.assertEquals(unit.apply(res), 1.0, 0.001);
     }
 
 
