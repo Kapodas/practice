@@ -10,12 +10,3 @@ public class SqrFunction implements MathFunction {
        System.out.println(J.apply(n));
     }
 }
-class ConstantFunction implements MathFunction {
-   public class Const {
-    private double Constant;
-    public double getConstant(){
-        return Constant;
-       }
-       public void
-}
-}
